@@ -1,9 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Threading;
 using Microsoft.Win32;
 
-namespace ConsoleApplication1
+namespace KasperskyTrialReset
 {
     internal class Program
     {
@@ -31,7 +32,8 @@ namespace ConsoleApplication1
             Thread.Sleep(300);
 
             string LoggerSearch, LibFolder;
-            
+            List<string> errors = new List<string>();
+
             if (Environment.Is64BitOperatingSystem)
             {
                 LoggerSearch = "SOFTWARE\\Wow6432Node\\Microsoft\\SystemCertificates\\SPC";
@@ -52,13 +54,11 @@ namespace ConsoleApplication1
             }
             catch (System.Security.SecurityException)
             {
-                Console.WriteLine("У вас нету прав доступа. Запустите программу от имени администратора\n");
+                errors.Add("\nУ вас нету доступа. Запустите программу от имени администратора\n");
             }
             catch (Exception e)
             {
-                Console.WriteLine(
-                    "Внимание, удаление SPC было пропущено или попытка была неудачной. Если сброс не помог, прошу дать эту ошибку создателю:\n" +
-                    $"{e}\n");
+                errors.Add($"\nНе удалось удалить Certificates, из за - {e}");
             }
 
             Thread.Sleep(300);
@@ -70,19 +70,17 @@ namespace ConsoleApplication1
                     key.DeleteSubKeyTree("LicStorage", true);
                 }
             }
-            catch (System.Security.SecurityException)
-            {
-                Console.WriteLine("У вас нету прав доступа. Запустите программу от имени администратора\n");
-            }
+            catch (System.Security.SecurityException) { }
             catch (Exception e)
             {
-                Console.WriteLine("Внимание, удаление Lib было пропущено, скорее всего из за того что она пуста. Если сброс не помог, прошу дать эту ошибку создателю:\n" +
-                                  $"{e}");
+                errors.Add($"\nНе удалось удалить LicStorage, из за - {e}");
             }
             
             Thread.Sleep(300);
-            
-            Console.WriteLine("\nЧистка окончена, для продолжения нажмите любую клавишу...");
+
+            if (errors.Count == 0) Console.WriteLine("\nЧистка окончена успешно, для продолжения нажмите любую клавишу...");
+            else Console.WriteLine("\nЧистка окончена, но были замечены следующие ошибки, которые возможно не повлияют на что то: " + string.Join("\n", errors));
+
             Console.ReadKey();
             Final();
         }

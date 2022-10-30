@@ -1,0 +1,20 @@
+﻿Kaspersky Trial Reset (KTR)
+
+
+winexe
+C#
+.cs
+C:\Users\hybas\RiderProjects\ConsoleApplication1\kaspersky-trial-reset-GUI\obj\Release\
+kaspersky_trial_reset
+none
+false
+TRACE
+C:\Users\hybas\RiderProjects\ConsoleApplication1\kaspersky-trial-reset-GUI\App.xaml
+3-101627106
+
+6-723942066
+91659208413
+MainWindow.xaml;Windows\GetLicenseKey.xaml;Windows\ResetTrial.xaml;
+
+False
+

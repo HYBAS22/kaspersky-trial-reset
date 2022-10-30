@@ -1,6 +1,3 @@
-C:\Users\hybas\RiderProjects\ConsoleApplication1\Kaspersky-trial-reset\bin\Release\Kaspersky-Trial-Reset.exe.config
-C:\Users\hybas\RiderProjects\ConsoleApplication1\Kaspersky-trial-reset\bin\Release\Kaspersky-Trial-Reset.exe
-C:\Users\hybas\RiderProjects\ConsoleApplication1\Kaspersky-trial-reset\bin\Release\Kaspersky-Trial-Reset.pdb
 C:\Users\hybas\RiderProjects\ConsoleApplication1\Kaspersky-trial-reset\bin\Release\EntityFramework.dll
 C:\Users\hybas\RiderProjects\ConsoleApplication1\Kaspersky-trial-reset\bin\Release\EntityFramework.SqlServer.dll
 C:\Users\hybas\RiderProjects\ConsoleApplication1\Kaspersky-trial-reset\bin\Release\Microsoft.Bcl.AsyncInterfaces.dll
@@ -27,8 +24,11 @@ C:\Users\hybas\RiderProjects\ConsoleApplication1\Kaspersky-trial-reset\bin\Relea
 C:\Users\hybas\RiderProjects\ConsoleApplication1\Kaspersky-trial-reset\bin\Release\System.ValueTuple.xml
 C:\Users\hybas\RiderProjects\ConsoleApplication1\Kaspersky-trial-reset\obj\Release\Kaspersky-trial-reset.csproj.AssemblyReference.cache
 C:\Users\hybas\RiderProjects\ConsoleApplication1\Kaspersky-trial-reset\obj\Release\Kaspersky-trial-reset.csproj.SuggestedBindingRedirects.cache
-C:\Users\hybas\RiderProjects\ConsoleApplication1\Kaspersky-trial-reset\obj\Release\Kaspersky-Trial-Reset.exe.config
 C:\Users\hybas\RiderProjects\ConsoleApplication1\Kaspersky-trial-reset\obj\Release\Kaspersky-trial-reset.csproj.CoreCompileInputs.cache
 C:\Users\hybas\RiderProjects\ConsoleApplication1\Kaspersky-trial-reset\obj\Release\Kaspersky-trial-reset.csproj.CopyComplete
-C:\Users\hybas\RiderProjects\ConsoleApplication1\Kaspersky-trial-reset\obj\Release\Kaspersky-Trial-Reset.exe
-C:\Users\hybas\RiderProjects\ConsoleApplication1\Kaspersky-trial-reset\obj\Release\Kaspersky-Trial-Reset.pdb
+C:\Users\hybas\RiderProjects\ConsoleApplication1\Kaspersky-trial-reset\bin\Release\Kaspersky-Trial-Reset (CLI).exe.config
+C:\Users\hybas\RiderProjects\ConsoleApplication1\Kaspersky-trial-reset\bin\Release\Kaspersky-Trial-Reset (CLI).exe
+C:\Users\hybas\RiderProjects\ConsoleApplication1\Kaspersky-trial-reset\bin\Release\Kaspersky-Trial-Reset (CLI).pdb
+C:\Users\hybas\RiderProjects\ConsoleApplication1\Kaspersky-trial-reset\obj\Release\Kaspersky-Trial-Reset (CLI).exe.config
+C:\Users\hybas\RiderProjects\ConsoleApplication1\Kaspersky-trial-reset\obj\Release\Kaspersky-Trial-Reset (CLI).exe
+C:\Users\hybas\RiderProjects\ConsoleApplication1\Kaspersky-trial-reset\obj\Release\Kaspersky-Trial-Reset (CLI).pdb

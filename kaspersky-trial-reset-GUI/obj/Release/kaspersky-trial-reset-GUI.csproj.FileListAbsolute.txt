@@ -1,0 +1,20 @@
+C:\Users\hybas\RiderProjects\ConsoleApplication1\kaspersky-trial-reset-GUI\obj\Release\kaspersky-trial-reset-GUI.csproj.AssemblyReference.cache
+C:\Users\hybas\RiderProjects\ConsoleApplication1\kaspersky-trial-reset-GUI\obj\Release\kaspersky-trial-reset-GUI.csproj.SuggestedBindingRedirects.cache
+C:\Users\hybas\RiderProjects\ConsoleApplication1\kaspersky-trial-reset-GUI\obj\Release\MainWindow.g.cs
+C:\Users\hybas\RiderProjects\ConsoleApplication1\kaspersky-trial-reset-GUI\obj\Release\App.g.cs
+C:\Users\hybas\RiderProjects\ConsoleApplication1\kaspersky-trial-reset-GUI\obj\Release\MainWindow.baml
+C:\Users\hybas\RiderProjects\ConsoleApplication1\kaspersky-trial-reset-GUI\obj\Release\kaspersky-trial-reset-GUI.csproj.GenerateResource.cache
+C:\Users\hybas\RiderProjects\ConsoleApplication1\kaspersky-trial-reset-GUI\obj\Release\kaspersky-trial-reset-GUI.csproj.CoreCompileInputs.cache
+C:\Users\hybas\RiderProjects\ConsoleApplication1\kaspersky-trial-reset-GUI\obj\Release\Windows\GetLicenseKey.g.cs
+C:\Users\hybas\RiderProjects\ConsoleApplication1\kaspersky-trial-reset-GUI\obj\Release\Windows\ResetTrial.g.cs
+C:\Users\hybas\RiderProjects\ConsoleApplication1\kaspersky-trial-reset-GUI\obj\Release\Windows\GetLicenseKey.baml
+C:\Users\hybas\RiderProjects\ConsoleApplication1\kaspersky-trial-reset-GUI\obj\Release\Windows\ResetTrial.baml
+C:\Users\hybas\RiderProjects\ConsoleApplication1\kaspersky-trial-reset-GUI\bin\Release\Kaspersky Trial Reset (KTR).exe.config
+C:\Users\hybas\RiderProjects\ConsoleApplication1\kaspersky-trial-reset-GUI\bin\Release\Kaspersky Trial Reset (KTR).exe
+C:\Users\hybas\RiderProjects\ConsoleApplication1\kaspersky-trial-reset-GUI\bin\Release\Kaspersky Trial Reset (KTR).pdb
+C:\Users\hybas\RiderProjects\ConsoleApplication1\kaspersky-trial-reset-GUI\obj\Release\Kaspersky Trial Reset (KTR)_MarkupCompile.cache
+C:\Users\hybas\RiderProjects\ConsoleApplication1\kaspersky-trial-reset-GUI\obj\Release\Kaspersky Trial Reset (KTR)_MarkupCompile.lref
+C:\Users\hybas\RiderProjects\ConsoleApplication1\kaspersky-trial-reset-GUI\obj\Release\Kaspersky Trial Reset (KTR).g.resources
+C:\Users\hybas\RiderProjects\ConsoleApplication1\kaspersky-trial-reset-GUI\obj\Release\Kaspersky Trial Reset (KTR).exe
+C:\Users\hybas\RiderProjects\ConsoleApplication1\kaspersky-trial-reset-GUI\obj\Release\Kaspersky Trial Reset (KTR).pdb
+C:\Users\hybas\RiderProjects\ConsoleApplication1\kaspersky-trial-reset-GUI\obj\Release\kaspersky_trial_reset.Properties.Resources.resources

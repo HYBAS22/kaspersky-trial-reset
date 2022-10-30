@@ -1,0 +1,24 @@
+<Window x:Class="kaspersky_trial_reset_GUI.Windows.GetLicenseKey"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:kaspersky_trial_reset_GUI.Windows"
+        mc:Ignorable="d"
+        Title="GetLicenseKey" Height="400" Width="600">
+    <Grid Background="#FF2F2F2F">
+        <StackPanel VerticalAlignment="Center">
+            
+            <TextBlock x:Name="KeyText" Text="Пробный ключ: EFD3J-68G5M-VM642-1PUPB" FontSize="22" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Margin="6"/>
+            <Image x:Name="SuccessImage" Source="/Icons/kaspersky_key.png" VerticalAlignment="Center" Width="64" Margin="6"/>
+            
+            <Button Click="CopyKeyButton_OnClick" Margin="15" Width="290" Height="40" BorderBrush="#3a3a3a" Background="#3a3a3a" Foreground="White" FontSize="18">
+                <Button.Resources> <Style TargetType="Border"> <Setter Property="CornerRadius" Value="5"/> </Style> </Button.Resources>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Скопировать ключ" Foreground="White" FontSize="20" VerticalAlignment="Center"/>
+                </StackPanel>
+            </Button>
+            
+        </StackPanel>
+    </Grid>
+</Window>

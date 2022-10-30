@@ -8,25 +8,20 @@
         <ProjectGuid>{C472B137-C79E-4851-B816-B5F0E08E8510}</ProjectGuid>
         <OutputType>Exe</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
-        <RootNamespace>ConsoleApplication1</RootNamespace>
-        <AssemblyName>Kaspersky-Trial-Reset</AssemblyName>
+        <RootNamespace>kaspersky_trial_reset_cli</RootNamespace>
+        <AssemblyName>Kaspersky-Trial-Reset (CLI)</AssemblyName>
         <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
-        <!-- Вот это самое главное -->
         <PublishSingleFile>true</PublishSingleFile>
-        <!-- Это чтобы тащить за собой рантайм До .NET 6 будут рядом лежать нативные библиотеки jit-а и сборщика мусора-->
         <SelfContained>true</SelfContained>
-        <!-- Это необходимо, чтобы сборщик понимал, для какой ОС нужен экзешник -->
         <RuntimeIdentifier>win-x64</RuntimeIdentifier>
-        <!-- Это чтобы ускорить запуск -->
         <PublishReadyToRun>true</PublishReadyToRun>
-        <!-- Эти две строки, чтобы уменьшить размер бинарника -->
-        <PublishTrimmed>true</PublishTrimmed>
         <TrimMode>link</TrimMode>
         <ApplicationIcon>kaspersky.ico</ApplicationIcon>
         <FileAlignment>512</FileAlignment>
         <SignAssembly>true</SignAssembly>
         <AssemblyOriginatorKeyFile>signed_by_hyda.snk</AssemblyOriginatorKeyFile>
         <PublicSign>true</PublicSign>
+        <LangVersion>10</LangVersion>
     </PropertyGroup>
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
         <PlatformTarget>AnyCPU</PlatformTarget>

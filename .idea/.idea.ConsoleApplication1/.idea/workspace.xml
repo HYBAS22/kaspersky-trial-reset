@@ -14,7 +14,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d76f55e-f923-4bbc-8df6-e574f59bc7e4" name="Default Changelist" comment="" />
+    <list default="true" id="9d76f55e-f923-4bbc-8df6-e574f59bc7e4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleApplication1/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleApplication1/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleApplication1/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleApplication1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleApplication1/.idea/projectSettingsUpdater.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleApplication1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleApplication1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleApplication1/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApplication1.sln" beforeDir="false" afterPath="$PROJECT_DIR$/KasperskyTrialReset.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kaspersky-trial-reset/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Kaspersky-trial-reset/Program.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,10 +35,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/../discord-bot-csharp/discord-bot/Modules/ExampleCommands.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../discord-bot-csharp/discord-bot/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Kaspersky-trial-reset/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Kaspersky-trial-reset/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Kaspersky-trial-reset/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../discord-bot-csharp/discord-bot/Modules/ExampleCommands.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../discord-bot-csharp/discord-bot/Program.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Df4gsldImpbWXcFwu97ygntsCS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -35,12 +50,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RunManager">
     <configuration name="Kaspersky-trial-reset" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -70,12 +87,24 @@
       <option name="presentableId" value="Default" />
       <updated>1661076922160</updated>
       <workItem from="1661076927051" duration="245000" />
+      <workItem from="1661077219458" duration="679000" />
+      <workItem from="1661092016694" duration="106000" />
+      <workItem from="1667129140868" duration="620000" />
     </task>
+    <task id="LOCAL-00001" summary="Добавил собственно говоря код">
+      <created>1661077279765</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661077279765</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="Vcs.Log.Tabs.Properties">
@@ -88,19 +117,10 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="552" y="293" key="Vcs.Push.Dialog.v2" timestamp="1661076839781">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state x="552" y="293" key="Vcs.Push.Dialog.v2/0.40.1920.1040@0.40.1920.1040" timestamp="1661076839781" />
-    <state x="755" y="295" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1661076817045">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state x="755" y="295" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1661076817045" />
+    <MESSAGE value="Добавил собственно говоря код" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил собственно говоря код" />
   </component>
 </project>
